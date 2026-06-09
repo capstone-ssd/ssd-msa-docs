@@ -35,7 +35,8 @@
 
 - Terraform apply로 dev 환경 생성
 - 서비스 이미지 빌드 및 배포 확인
-- ALB endpoint를 통한 동작 확인
+- 게이트웨이 외부 노출 방식 검증
+- 1차 검증은 `Service LoadBalancer`로 수행하고, 이후 필요 시 ALB Ingress로 확장
 - 검증 종료 후 `terraform destroy`로 회수
 
 ## 7단계. 블로그 및 발표 정리

@@ -17,6 +17,8 @@
   각 서비스 책임, API 경계, 데이터 소유 범위 정리
 - `docs/implementation-roadmap.md`
   실제 구현 순서와 검증 절차 정리
+- `docs/dev-validation-result.md`
+  실제 EKS dev 검증 결과와 트러블슈팅 기록
 
 ## 기본 원칙
 
